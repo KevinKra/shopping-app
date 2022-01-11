@@ -19,7 +19,8 @@ module.exports = {
     sourceType: "module",
   },
   rules: {
-    "react/react-in-jsx-scope": "off",
-    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "react/react-in-jsx-scope": 0,
+    "@typescript-eslint/explicit-module-boundary-types": 0,
+    "@typescript-eslint/no-unused-vars": 2,
   },
 };

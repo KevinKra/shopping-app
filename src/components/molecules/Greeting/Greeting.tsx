@@ -1,6 +1,5 @@
 import styled from "@emotion/styled";
 import { Button, Typography } from "@mui/material";
-import React from "react";
 
 const Greeting = () => {
   return (
