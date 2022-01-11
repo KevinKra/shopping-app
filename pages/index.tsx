@@ -1,18 +1,13 @@
 import type { NextPage } from "next";
-import styled from "@emotion/styled";
-import Button from "@mui/material/Button";
+import Greeting from "../components/molecules/Greeting/Greeting";
 
 const Home: NextPage = () => {
   return (
-    <StyledDiv>
+    <div>
       <p>Hello World</p>
-      <Button variant="contained">Greetings</Button>
-    </StyledDiv>
+      <Greeting />
+    </div>
   );
 };
 
 export default Home;
-
-const StyledDiv = styled.div`
-  border: 1px solid red;
-`;
