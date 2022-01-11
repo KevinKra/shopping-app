@@ -6,6 +6,7 @@ const Greeting = () => {
   return (
     <GreetingWrapper>
       <Typography variant="h2">Greetings</Typography>
+
       <Button variant="outlined">Button</Button>
     </GreetingWrapper>
   );
