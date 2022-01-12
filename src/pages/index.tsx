@@ -1,11 +1,10 @@
 import type { NextPage } from "next";
-import Greeting from "../components/molecules/Greeting/Greeting";
+import ModelCard from "@components/molecules/ModelCard/ModelCard";
 
 const Home: NextPage = () => {
   return (
     <div>
-      <p>Hello World</p>
-      <Greeting />
+      <ModelCard />
     </div>
   );
 };
